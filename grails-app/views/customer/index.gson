@@ -1,0 +1,8 @@
+import williamwoodman.Customer
+
+model {
+	Iterable<Customer> customerList
+}
+
+json tmpl.customer(customerList ?: [])
+

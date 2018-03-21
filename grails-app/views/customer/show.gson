@@ -1,0 +1,7 @@
+import williamwoodman.Customer
+
+model {
+	Customer customer
+}
+
+json tmpl.customer(customer)
